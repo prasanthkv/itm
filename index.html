@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script >
+            const urlParams = new URLSearchParams(window.location.search);
+            const itemid = urlParams.get('itemid');
+            const url = "http://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=2&pub=5575378759&campid=5338273189&customid=&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg&toolid=11111&icep_item=";
+            console.log(url + itemid);
+            document.write('<img src="' + url + ' "/>');
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
